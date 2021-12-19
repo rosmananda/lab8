@@ -1,0 +1,17 @@
+class Person():
+def __init__(self, nama):
+self.nama = nama
+self.alamat = ""
+
+def cetak(self): cetak
+print("\nNama: {Nanda}\nAlamat: {Perum KSB Blok B5}"\
+
+.format(self.nama, self.alamat))
+
+nanda.nama = 'Nanda Rosma Anwar' # mengubah nilai atribut
+nanda.alamat = 'Bekasi' # mengubah nilai atribut
+
+print(nanda.nama) # mengakses atribut
+print(nanda.alamat) # mengakses atribut
+
+nanda.cetak() # memanggil fungsi / method
